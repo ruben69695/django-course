@@ -1,0 +1,2 @@
+Para preparar el entorno hay que seguir los pasos descritos en la web que ha preparado Hector:
+https://www.instalardjango.com
