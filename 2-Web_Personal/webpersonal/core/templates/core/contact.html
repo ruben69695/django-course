@@ -1,7 +1,13 @@
 {% extends 'core/base.html' %}
 
 {% block title %} Contacto {% endblock %}
+
+{% block background %} {% load static %} {% static 'core/img/contact-bg.jpg' %} {% endblock %}
+
+{% block headers %}
+<h1>Contacto</h1>
+<span class="subheading">Asesoría</span>
+{% endblock %}
+
 {% block content %}
-<h2>Contacto</h2>
-<p>Mi contacto es el siguiente</p>
 {% endblock %}
