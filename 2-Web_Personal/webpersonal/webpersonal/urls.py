@@ -25,6 +25,7 @@ urlpatterns = [
     path('contact/', core_views.contact, name="contact"),
     path('about-me/', core_views.aboutMe, name="about-me"),
     path('admin/', admin.site.urls),
+    path('create-contact-message/', core_views.createContactMessage, name="create-contact-message")
 ]
 
 if settings.DEBUG:
